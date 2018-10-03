@@ -1,0 +1,58 @@
+---
+title: "CONTRIBUTING"
+author: "James R Holmquist"
+date: "10/3/2018"
+output: html_document
+---
+
+# Introduction
+Hello and welcome to the Coastal Carbon Research Coordination Soils Working group's GitHub repository. We are going to be using this GitHub repository to coordinate some data cleaning, analytics and modeling work for the soils working group.
+
+Here are a couple of resources.
+
+First, anyone joining our working group needs to read and agree to our [code of conduct](https://serc.si.edu/coastalcarbon/soil-carbon-working-group#si-tabs-15385979661512797539-0).
+
+We also have a [statement about how we treat intellectual property in our work](https://serc.si.edu/coastalcarbon/soil-carbon-working-group#si-tabs-15385979661512797539-1).
+
+If you are new to scientific computing we reccomend reading the following [paper on 'good enough' practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510).
+
+# Structure
+This repository is structured, so that data files, documents and scripts all have separate subfolders. Important must read project documents are up front here as well
+
+*  data - all data sheets used are housed here
+  +  Naming Conventions - give each dataset it's own folder with lastname of 1st author/agency and year if approrpiate ex. `Fakeman_2019` 
+  +  Original - If a file needs to be cleaned up or reformatted load the files as is to `data/Fakeman_2019/original`
+  +  Derivative - When cleaning and standardizing save a copy to `data/Fakeman_2019/derivative`. If you write a scipt to do the cleaning leave a copy in scripts. If you need to make manual adjustments, write a description of what you did and why in a text file and add it to the `derrivative` folder. 
+*  Docs - Keep any useful project documentation here
+*  Scripts - Save scripts here. As we progress we will organize scripts into subfolders.
+
+# GitHub Operations
+If you've gotten this far, you already have a GitHub account. To participate in the coding can either interact directly with this website interface, or work on the repository on your own machine using git.
+
+## Don't have Git on your computer?
+
+### Raise an Issue
+You don't need to know command line or download Git onto your computer to help out. If you spot something that needs work, like a bug, correction, comment on syntax, or general house keeping you can raise and `issue`. Examples of issues could be scripts that need to be outlined, outlines that need to be completed, corrections that need to be made, etc. To raise an issue go to the Issues tab on the website.  These require a title and a body. Both of these should be informative and specific enough so that someone else can understand what and where the problem is.
+
+### Add files directly to GitHub
+You can also add files directly to the GitHub repository through the website.
+
+## Have git on your computer?
+
+*  Want to downlaod Git? [need resource]
+*  Want to integrate Git with R Studio [need resource]
+
+### Clone the Repository
+
+### Make a Committ
+
+### Push your committ to the master
+
+### OR create a pull request
+
+# Miscelaneous Pointers
+
+*  When using paths make sure the path starts assuming the main GitHub folder is the working directory
+*  Document scripts using comments `#` in `R`
+
+
