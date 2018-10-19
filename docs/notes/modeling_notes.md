@@ -43,6 +43,8 @@ MHW - mean high water
 MHHW - mean higher high water  
 NAVD88 - North American Vertical Datum 1988  
 
+[Return to Top](#table-of-contents)
+
 ## Notes on Common Assumptions from Frequentists Statistics
 * Normal distributions - Commonly used frequentist statistical tests typically assume errors are normally distributed
   + Not all distributions are normal and other distributions have properties that are useful
@@ -60,6 +62,8 @@ NAVD88 - North American Vertical Datum 1988
 * Homoscedasticity - Commonly used frequentist statistical tests typically assume errors are the same over the range of a variable
   + We don’t always need to assume constant errors. In some cases we can model variance as a function of something else. 
   + For example uncertainty in measuring the bulk density could be higher for organic soils than inorganic soils
+
+[Return to Top](#table-of-contents)
 
 ## Environmental Covariates 
 
@@ -116,6 +120,8 @@ For environmental data at site (j) and time (t), or lat/lon and time (t), some v
   + Idea 1: Treat as known, use NOAA data or Holmquist et al., krigged surfaces
   + Idea 2: Use NOAA data or Holmquist et al. krigged surfaces with propagated uncertainty
 
+[Return to Top](#table-of-contents)
+
 ## Parameters for Process Model
 _Note that a lot of the complexity of this model will depend on whether the core or the depth interval are the fundamental unit of analysis._
 
@@ -158,7 +164,7 @@ If the sample is the fundamental unit of the analysis, then we will need to run 
 
 If the core is the fundamental unit of the analysis then we can maybe use Jim’s simplified ‘Michaelis-Menten’ curve from his MEM carbon burial rate sensitivity analysis. If this is the case then MM curves have a couple shape parameters we’d need. Also a few of the parameters and input variables could be simplified.
 
-
+[Return to Top](#table-of-contents)
 
 ## Parameters for Spatial Model
 
@@ -166,8 +172,9 @@ Idea: have a level of hierarchy that elaborates on the MEM type model and allows
 
 Concern: The model is already very overloaded. Would this model take years or decades to converge?
 
-## Parameters for Observation Model
+[Return to Top](#table-of-contents)
 
+## Parameters for Observation Model
 
 * Age-Depth Models
   + Age-depth models from BACON previously determined uncertainty
@@ -183,6 +190,8 @@ Concern: The model is already very overloaded. Would this model take years or de
   + Process model could by gamma, observation model could be lognormal to acknowledge the fact that you’re most likely to squish samples as you sample them
   + Could model heteroskedasticity, increasing uncertainty and bias w/ more organic soils
 * Need covariance between OM and BD
+
+[Return to Top](#table-of-contents)
 
 ## Derived Quantities
 * Converting OM burial to OC burial, propagate model uncertainty - lab/local effects from the in Holmquist et al. equation
