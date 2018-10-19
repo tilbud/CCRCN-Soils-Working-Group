@@ -3,7 +3,11 @@
 ## Table of Contents
 1. [Key](#key)  
 2. [Notes on Common Assumptions from Frequentists Statistics](#notes-on-common-assumptions-from-frequentists-statistics)
-3. 
+3. [Environmental Covariates](#environmental-covariates)
+4. [Parameters for Process Model](#parameters-for-process Model)
+5. [Parameters for Spatial Model](#parameters-for-spatial-model)
+6. [Parameters for Observation Model](#parameters-for-observation-model)
+7. [Derived Quantities](#derived-quantities)
 
 ## Key
 
@@ -112,7 +116,7 @@ For environmental data at site (j) and time (t), or lat/lon and time (t), some v
   + Idea 1: Treat as known, use NOAA data or Holmquist et al., krigged surfaces
   + Idea 2: Use NOAA data or Holmquist et al. krigged surfaces with propagated uncertainty
 
-## Parameters - Process Model
+## Parameters for Process Model
 _Note that a lot of the complexity of this model will depend on whether the core or the depth interval are the fundamental unit of analysis._
 
 * Root Shoot Ratio
