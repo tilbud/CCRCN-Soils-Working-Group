@@ -4,7 +4,7 @@
 1. [Key](#key)  
 2. [Notes on Common Assumptions from Frequentists Statistics](#notes-on-common-assumptions-from-frequentists-statistics)
 3. [Environmental Covariates](#environmental-covariates)
-4. [Parameters for Process Model](#parameters-for-process Model)
+4. [Parameters for Process Model](#parameters-for-process-model)
 5. [Parameters for Spatial Model](#parameters-for-spatial-model)
 6. [Parameters for Observation Model](#parameters-for-observation-model)
 7. [Derived Quantities](#derived-quantities)
@@ -160,13 +160,13 @@ If the core is the fundamental unit of the analysis then we can maybe use Jim’
 
 
 
-## Parameters - Spatial Model
+## Parameters for Spatial Model
 
 Idea: have a level of hierarchy that elaborates on the MEM type model and allows spatial autocorrelation in how much the actual data vary from the modeled values. This could incorporate a lot of site specific and geomorphic variation. Would help in mapping stage if we ever get to it. Would show higher uncertainty further away from current calibration points. 
 
 Concern: The model is already very overloaded. Would this model take years or decades to converge?
 
-## Parameters - Observation Model
+## Parameters for Observation Model
 
 
 * Age-Depth Models
