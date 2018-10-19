@@ -1,8 +1,9 @@
 # Running List of notes for modeling
 
 ## Table of Contents
-[Key](#Key)
-[Notes on Common Assumptions from Frequentists Statistics](#Notes-on-Common-Assumptions-from-Frequentists-Statistics)
+1. [Key](#key)  
+2. [Notes on Common Assumptions from Frequentists Statistics](#notes-on-common-assumptions-from-frequentists-statistics)
+3. 
 
 ## Key
 
