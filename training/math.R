@@ -8,3 +8,6 @@ if (x == 5) {
   print("I know what x is")
 }
 
+y -> 5 * 3
+
+y
