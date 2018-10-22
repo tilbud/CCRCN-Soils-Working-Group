@@ -5,3 +5,4 @@ James R Holmquist - Everyone can contribute to basic project management and soft
 Kathe Todd-Brown - I'm hoping to learn more about how to teach git skills
 
 Lauren Brown - I'm hoping to learn best practices for data management.
+Hey this is Jim.  I want to become a master GITter. 
