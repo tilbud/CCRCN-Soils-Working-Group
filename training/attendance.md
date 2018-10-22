@@ -7,3 +7,5 @@ Kathe Todd-Brown - I'm hoping to learn more about how to teach git skills
 Lauren Brown - I'm hoping to learn best practices for data management.  
 
 Hey this is Jim.  I want to become a master GITter. 
+
+  after a line feed and two spaces
